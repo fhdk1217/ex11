@@ -19,11 +19,11 @@ function ColorSchemesExample({history}) {
             <img src={back} style={{width:'100%'}}/>
             <Navbar bg="primary" variant="dark" className='header'>
                 <NavLink to="/">Home</NavLink>
-                <NavLink to="/users">users</NavLink>
+                <NavLink to="/users">회원목록</NavLink>
                 {email ?
-                <NavLink to="/logout" onClick={onLogout}>logout</NavLink>
+                <NavLink to="/logout" onClick={onLogout}>로그아웃</NavLink>
                 :
-                <NavLink to="/login">login</NavLink>
+                <NavLink to="/login">로그인</NavLink>
                 }
                 {email && <NavLink to="/mypage">{email}</NavLink>}
             </Navbar>

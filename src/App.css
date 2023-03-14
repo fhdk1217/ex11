@@ -14,3 +14,21 @@ body {
     text-decoration: none;
     padding: 10px 20px;
 }
+
+.header a:hover {
+    color: black;
+}
+
+.loading {
+    text-align: center;
+    color: blue;
+    margin-top: 100%;
+}
+
+.user {
+    overflow: hidden;
+}
+
+.user image {
+    float: left;
+}
